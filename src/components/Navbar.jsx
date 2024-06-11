@@ -15,7 +15,7 @@ const Navbar = ({logoTitle}) => {
             <div className="container">
                 <div className="container-wrapper">
                     <div className="container-wrapper__logo-area">
-                        <Link to="/first-react-project"><p>{logoTitle}</p></Link>
+                        <Link to="/"><p>{logoTitle}</p></Link>
                     </div>
                     <div className="container-wrapper__menu-area">
                         <div className="menu-items">

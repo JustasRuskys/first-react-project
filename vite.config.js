@@ -4,15 +4,14 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/first-react-project/"
-  // server: {
-  //   port: 3000,
-  //   proxy: {
-  //     '/api': {
-  //       target: 'http://localhost:8000',
-  //       changeOrigin: true,
-  //       rewrite: (path) => path.replace(/^\/api/, '')
-  //     },
-  //   },
-  // },
+  server: {
+    port: 3000,
+    proxy: {
+      '/api': {
+        target: 'http://localhost:8000',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, '')
+      },
+    },
+  },
 });
