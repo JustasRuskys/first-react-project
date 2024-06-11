@@ -1,0 +1,96 @@
+.offer-popup-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 999;
+    height: 100%;
+    backdrop-filter: blur(15px);
+    &.active {
+        display: flex;
+    }
+    .modal-area {
+        background-color: $bg-color;
+        width: 80%;
+        height: 90%;
+        padding: 2rem;
+        border: 1px solid $text-color-white;
+        position: relative;
+        overflow: scroll;
+        &::-webkit-scrollbar {
+            display: none;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        @media (max-width: 960px){
+            width: 90%;
+          }
+        @media (max-width: 450px){
+            padding-top: 4rem;
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 2rem;
+            right: 2rem;
+            width: 1rem;
+            height: 1rem;
+            cursor: pointer;
+        }
+
+        .content-area {
+            display: flex;
+            flex-direction: column;
+            
+            .title-block {
+                margin-bottom: 2rem;
+    
+                h3 {
+                    color: $title-color-white;
+                    font-size: 2rem;
+                }
+                .modal-price {
+                    color: $title-color-white;
+                    margin-bottom: 2rem;
+                }
+                .modal-full-price {
+                    color: $text-color-white !important;
+                    margin-bottom: 2rem;
+                    word-spacing: 2rem;
+                }
+                .button-block {
+                    .button {
+                        background-color: #1A6AFF;
+                        border-radius: 20px;
+                        padding: .4rem .7rem;
+                        font-size: .75rem;
+                        color: $title-color-white;
+                        font-weight: 400;
+                        text-decoration: none;
+                        cursor: pointer;
+                        transition: .2s all ease;
+                        &:hover {
+                            background-color: #1658d2;
+                        }
+                    }
+                }
+                
+            }
+
+            .description {
+                .modal-description-title {
+                    color: $title-color-white;
+                    font-weight: 400;
+                    margin-bottom: 1rem;
+                }
+                .modal-description-text {
+                    color: $text-color-white;
+                }
+            }
+
+        }
+    }
+}

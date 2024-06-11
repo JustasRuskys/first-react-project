@@ -1,0 +1,30 @@
+@mixin font($font_name, $file_name, $weight, $style) {
+    @font-face {
+        font-family: $font_name;
+        font-display: swap;
+        src: url("../Fonts/#{$file_name}.woff") format("woff"),
+            url("../Fonts/#{#file_name}.woff2") format("woff2");
+                font-weight: #{$weight};
+                font-style: #{$style};
+    }
+}
+
+@import 'fonts';
+@import 'variables-mixins';
+@import 'body';
+@import 'header';
+@import 'footer';
+@import 'error';
+
+//========= PAGES ==========
+@import 'pages/all-services';
+
+
+//========= BLOCKS ==========
+@import 'blocks/main-hero-banner';
+@import 'blocks/travel-swiper';
+@import 'blocks/text-with-image-left';
+@import 'blocks/large-image-with-text';
+@import 'blocks/newsletter-block';
+@import 'blocks/faq-block';
+@import 'blocks/offers-popup';

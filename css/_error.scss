@@ -1,0 +1,18 @@
+.error-page {
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    .container {
+        @include mediumStructure();
+       .title {
+        color: $title-color-white;
+       }
+       .text {
+        color: $text-color-white;
+        padding-bottom: 2rem;
+       }
+       .button {
+        @include buttonStructure();
+       }
+    }
+}
