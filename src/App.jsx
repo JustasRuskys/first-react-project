@@ -6,7 +6,7 @@ import ErrorPage from './pages/Error';
 
 const router = createBrowserRouter(
     createRoutesFromElements(
-    <Route path='/' element={< MainLayout />}>
+    <Route path='/first-react-project' element={< MainLayout />}>
     <Route index element={< HomePage />} />
     <Route path='/all-services' element={< AllServices />} />
     <Route path='*' element={< ErrorPage />} />
