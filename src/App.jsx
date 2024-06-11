@@ -8,7 +8,7 @@ const router = createBrowserRouter(
     createRoutesFromElements(
     <Route path='/first-react-project' element={< MainLayout />}>
     <Route index element={< HomePage />} />
-    <Route path='/all-services' element={< AllServices />} />
+    <Route path='first-react-project/all-services' element={< AllServices />} />
     <Route path='*' element={< ErrorPage />} />
     </Route>
     )
