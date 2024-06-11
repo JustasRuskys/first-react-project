@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: "/first-react-project/",
   server: {
-    port: 3000,
+    port: 8443,
     proxy: {
       '/api': {
         target: 'http://JustasRuskys.github.io/first-react-project',
