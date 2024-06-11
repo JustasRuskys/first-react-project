@@ -15,12 +15,12 @@ const Navbar = ({logoTitle}) => {
             <div className="container">
                 <div className="container-wrapper">
                     <div className="container-wrapper__logo-area">
-                        <Link to="/"><p>{logoTitle}</p></Link>
+                        <Link to="/first-react-project"><p>{logoTitle}</p></Link>
                     </div>
                     <div className="container-wrapper__menu-area">
                         <div className="menu-items">
-                           <NavLink className={linkClass} to={'/all-services'}>Book Now</NavLink>
-                           <NavLink className={linkClass} to={'/get-in-touch'}>Get in Touch</NavLink>
+                           <NavLink className={linkClass} to={'first-react-project/all-services'}>Book Now</NavLink>
+                           <NavLink className={linkClass} to={'first-react-project/get-in-touch'}>Get in Touch</NavLink>
                         </div>
                     </div>
                     <div className="open-menu-button">
@@ -50,8 +50,8 @@ const Navbar = ({logoTitle}) => {
                 <div className="mobile-menu-area">
                     <div className="mobile-menu-items">
                         <NavLink className={mobileLinkClass} to={'/'}>Home</NavLink>
-                        <NavLink className={mobileLinkClass} to={'/all-services'}>Book Now</NavLink>
-                        <NavLink className={mobileLinkClass} to={'/get-in-touch'}>Get in Touch</NavLink>
+                        <NavLink className={mobileLinkClass} to={'first-react-project/all-services'}>Book Now</NavLink>
+                        <NavLink className={mobileLinkClass} to={'first-react-project/get-in-touch'}>Get in Touch</NavLink>
                     </div>   
                 </div>
             </div>

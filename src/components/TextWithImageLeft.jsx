@@ -28,7 +28,7 @@ const TextWithImageRight = ({title, subtitle, listTitleLeft, listTextLeft, listT
                             </div>
                         </div>
                         <div className="button-area">
-                            <Link className='button' to='/all-services'><span>Book Now</span></Link>
+                            <Link className='button' to='first-react-project/all-services'><span>Book Now</span></Link>
                         </div>
                     </div>
                 </div>
