@@ -39,7 +39,7 @@ const TraverlSwiper = ({textAboveTitle, title}) => {
                 <div className="travel-swiper-title-block">
                     <p className="description">{textAboveTitle}</p>
                     <h2 className="travel-swiper-title">{title}</h2>
-                    <Link className="button" to='/all-services'><span>View all</span></Link>
+                    <Link className="button" to='first-react-project/all-services'><span>View all</span></Link>
                 </div>
                 <div className="travel-swiper-block swiper">
                 <Swiper

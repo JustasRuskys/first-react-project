@@ -14,7 +14,7 @@ const LargeImageWithText = ({title, subtitle}) => {
                         <h1 className='title' key={index}>{line}</h1>
                     ))}
                     <p className="description">{subtitle}</p>
-                    <Link className='button' to='/all-services'><span>Book Now</span></Link>
+                    <Link className='button' to='/first-react-project/all-services'><span>Book Now</span></Link>
                 </div>
             </div>
         </section>
