@@ -1,0 +1,55 @@
+.newsletter-block {
+    padding: 0 0 10rem;
+    position: relative;
+    .content {
+        .container {
+            @include mediumStructure();
+            .title {
+                color: $title-color-white;
+                font-weight: 400;
+                margin-bottom: 1rem;
+                font-size: 2.5rem;
+            }
+            .description {
+                color: $title-color-white;
+                margin-bottom: 2rem;
+                font-weight: 500;
+            }
+            form {
+                display: flex;
+                flex-direction: column;
+                input {
+                    @include inputStructure();
+                    width: 100%;
+                    max-width: 20rem;
+                }
+                .submit-btn .submit {
+                    @include buttonStructure();
+                    color: #000;
+                }
+            }
+
+        }
+    }
+    .image-area {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: auto;
+        width: 50%;
+        z-index: -1;
+        @media (max-width: 500px) {
+            width: 60%;
+        }
+        .image {
+            width: 100%;
+            height: 100%;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                object-position: bottom right;
+            }
+        }
+    }
+}

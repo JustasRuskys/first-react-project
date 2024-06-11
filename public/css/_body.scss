@@ -1,0 +1,85 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+    &.modal-is-open {
+        overflow: hidden;
+    }
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    scroll-behavior: smooth;
+    background-color: #000;
+
+    @media (max-width: 1440px) {
+        font-size: 20px;
+    }
+    @media (max-width: 1200px) {
+        font-size: 18px;
+    }
+    @media (max-width: 1024px) {
+        font-size: 16px;
+    }
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    @media (max-width: 1440px) {
+        font-size: 3.8rem;
+    }
+    @media (max-width: 1200px) {
+        font-size: 3.6rem;
+    }
+    @media (max-width: 1024px) {
+        font-size: 3.4rem;
+    }
+    @media (max-width: 768px) {
+        font-size: 3rem;
+    }
+}
+
+h2 {
+    font-size: 3.5rem;
+    @media (max-width: 1440px) {
+        font-size: 3.3rem;
+    }
+    @media (max-width: 1200px) {
+        font-size: 3.1rem;
+    }
+    @media (max-width: 1024px) {
+        font-size: 2.9rem;
+    }
+    @media (max-width: 768px) {
+        font-size: 2.7rem;
+    }
+}
+
+h3 {
+    font-size: 3rem;
+    @media (max-width: 1440px) {
+        font-size: 3.1rem;
+    }
+    @media (max-width: 1200px) {
+        font-size: 2.9rem;
+    }
+    @media (max-width: 1024px) {
+        font-size: 2.7rem;
+    }
+    @media (max-width: 768px) {
+        font-size: 2.5rem;
+    }
+}

@@ -1,0 +1,103 @@
+.faq-block {
+    background-color: $bg-color-white;
+
+    .container {
+        @include mediumStructure();
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .title-and-text {
+            padding: 7rem 0 4rem;
+            .title {
+                color: $text-color-black;
+                font-weight: 400;
+                padding-bottom: 1rem;
+            }
+            .text {
+                color: $text-color-black;
+                font-weight: 400;
+            }
+        }
+        .single-faq {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            padding-bottom: 5rem;
+            &.hidden {
+                display: none;
+            }
+            .accordion {
+                button {
+                    width: 100%;
+                    padding: 1rem 0;
+                    background-color: $bg-color-white;
+                    display: flex;
+                    align-items: center;
+                    gap: 1em;
+                    justify-content: space-between;
+                    cursor: pointer;
+                    transition: .2s all ease;
+                    border: none;
+                    @media (max-width:700px) {
+                        text-align: initial;
+                    }
+
+                    &:hover {
+                        opacity: .6;
+                    }
+
+                    .acc-title {
+                        font-size: 1.5rem;
+                        line-height: 2rem;
+                        font-weight: 400;
+                        color: $text-color-black;
+                        transition: .2s all ease;
+                    }
+
+                    .chevron {
+                        position: relative;
+                        height: 1.25rem;
+                        width: 1.25rem;
+                        font-size: 1.25rem;
+                        font-weight: 200;
+                        transform: rotate(180deg);
+                        transition: .2s ease all;
+                    }
+
+                    &.active {
+                        .chevron {
+                            transform: translate(0%, -50%) rotate(0deg);
+
+                        }
+                    }
+                }
+            }
+            .information {
+                display: grid;
+                grid-template-columns: 1fr;
+                overflow: hidden;
+                max-height: 0;
+                width: 100%;
+                transition: .2s all ease-in-out;
+                border-bottom: 1px solid $text-color-black;
+
+                .single-inner-price {
+                    padding: 1.25rem 0;
+                    border-bottom: 1px solid $text-color-black;
+                    display: flex;
+                    gap: 1rem;
+                    align-items: center;
+                    justify-content: space-between;
+                    &:last-of-type {
+                        border-bottom: none;
+                    }
+                    .answer {
+                        font-size: .7rem;
+                    }
+                }
+            }
+        }
+    }
+}

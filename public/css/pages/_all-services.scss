@@ -1,0 +1,100 @@
+.all-services-page {
+    margin: 10rem 0 2rem;
+    .container {
+        @include mediumStructure();
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .title h2 {
+            color: $title-color-white;
+            font-size: 2.5rem;
+            font-weight: 400;
+            padding: 4rem 0;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            @media (max-width: 950px) {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            @media (max-width: 650px) {
+                grid-template-columns: 1fr;
+            }
+            .single-service {
+                border: 2px solid $text-color-white;
+                display: flex;
+                flex-direction: column;
+                .image-area {
+                    width: 100%;
+                    height: 100%;
+                    max-height: 17rem;
+                    position: relative;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                    &:hover .shadow {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: hsla(0, 0%, 0%, 0.35);
+                        z-index: 2
+                    }
+                }
+                .top-service-content {
+                    width: 90%;
+                    margin: 0 auto;
+                    padding: 1rem 0;
+                    border-bottom: 1px solid $text-color-white;
+                    .service-title {
+                        color: $title-color-white;
+                        font-size: 1.2rem;
+                        font-weight: 400;
+                        padding-bottom: .5rem;
+                    }
+                    .service-price {
+                        color: $title-color-white;
+                        font-size: .7rem;
+                        padding-bottom: .5rem;
+                    }
+                    .read-button {
+                        color: $title-color-white;
+                        font-weight: 400;
+                        font-size: .8rem;
+                        cursor: pointer;
+                    }
+                }
+                .bottom-service-content {
+                    width: 90%;
+                    margin: 0 auto;
+                    padding: 1rem 0 2rem;
+                    .full-price p {
+                       color: $text-color-white;
+                       font-size: .75rem; 
+                       margin-bottom: 3rem;
+                    }
+                    .button-block{
+                        .button {
+                            background-color: #1A6AFF;
+                            border-radius: 20px;
+                            padding: .4rem .7rem;
+                            font-size: .75rem;
+                            color: $title-color-white;
+                            font-weight: 400;
+                            text-decoration: none;
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                
+            }
+        }
+    }
+
+}

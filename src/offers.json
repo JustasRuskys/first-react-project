@@ -1,0 +1,140 @@
+ {
+    "offers": [
+        {
+            "id": "1",
+            "offerName": "Shark Point Snorkelling",
+            "price": "min. 2 persons - $65/person",
+            "fullPrice": "130", 
+            "image": "src/assets/images-offers/Shark-Point-Snorkelling.webp",
+            "description" :"Dive into the mesmerizing world of the ocean with our exhilarating \"Swim with Sharks\" tour! Embark on a unique adventure as you journey to a tropical paradise known for its crystal-clear waters and vibrant marine life. Your experience begins with a boat ride to a secluded cove where gentle nurse sharks gracefully glide beneath the surface.Led by expert guides, you'll receive a safety briefing and fascinating insights into the behavior of these docile creatures. Then, equipped with snorkeling gear, you'll descend into the warm, turquoise waters to join these fascinating animals in their natural habitat. Nurse sharks, renowned for their calm demeanor, will gracefully swim around you, providing an unforgettable encounter with these magnificent creatures. Whether you're an experienced snorkeler or a first-timer, our tour caters to all skill levels, ensuring a safe and enjoyable experience. Immerse yourself in the wonder of the underwater world and create lasting memories as you share the ocean with these gentle giants. Book your \"Shark Point Snorkeling\" tour today for an unforgettable blend of adventure and marine marvels!"
+        },
+        {
+            "id": "2",
+            "offerName": "Swim with Manta",
+            "price": "min. 2 persons - $70/person",
+            "fullPrice": "140",
+            "image": "src/assets/images-offers/swim-with-manta.webp",
+            "description" : "Embark on an awe-inspiring journey with our \"Swim with the Mantas\" tour, a once-in-a-lifetime opportunity to encounter these majestic giants of the ocean. Setting sail from a picturesque coastal locale, our expert guides will lead you to prime manta ray habitats, where these graceful creatures gracefully glide through the water. Before the adventure begins, you'll receive a comprehensive briefing on manta ray behavior and the importance of responsible wildlife interaction. Equipped with top-quality snorkeling gear, you'll slip into the crystal-clear waters, surrounded by the breathtaking beauty of the marine world. As you float on the surface, the gentle giants of the sea, with their vast wingspans, will mesmerize you as they perform their elegant underwater ballet. This tour caters to enthusiasts of all experience levels, ensuring a safe and unforgettable encounter with these incredible marine beings. Immerse yourself in the magic of the ocean and create lasting memories as you share the water with these charismatic mantas. Book your \"Swim with the Mantas\" tour today for an adventure that transcends the ordinary, promising a connection with nature that will leave you in awe of the ocean's wonders." 
+        },
+        {
+            "id": "3",
+            "offerName": "Turtle Point Snorkelling",
+            "price": "min. 2 persons - $65/person",
+            "fullPrice": "130",
+            "image": "src/assets/images-offers/Turtle-Point-Snorkeling.webp",
+            "description" : "Embark on a magical marine adventure with our \"Swim with the Turtles\" tour, where you'll have the extraordinary opportunity to share the turquoise waters with these ancient and gentle creatures. Departing from a pristine coastal haven, our knowledgeable guides will lead you to the secret spots where sea turtles gracefully navigate the ocean currents. Before you dive into this enchanting experience, our guides will provide you with essential information about the behavior and conservation of sea turtles. Equipped with snorkeling gear, you'll gently glide into the warm, clear waters, creating a connection with the serene world beneath the surface. As you snorkel, you'll find yourself surrounded by the elegance of sea turtles, as they gracefully swim through their natural habitat. Perfect for both seasoned snorkelers and beginners, our tour promises an immersive and respectful encounter with these captivating creatures. Immerse yourself in the beauty of the underwater realm, and let the gentle presence of sea turtles leave you with memories that will last a lifetime. Book your \"Swim with the Turtles\" tour now and dive into a world where nature and tranquility converge in a truly unforgettable experience." 
+        },
+        {
+            "id": "4",
+            "offerName": "Swim with Dolphins!",
+            "price": "min. 2 persons - $100/person",
+            "fullPrice": "200",
+            "image": "src/assets/images-offers/swim-with-dolphins.webp" 
+        },
+        {
+            "id": "5",
+            "offerName": "Night fishing",
+            "price": "min. 2 persons -$60/person",
+            "fullPrice": "120",
+            "image": "src/assets/images-offers/night-fishing.webp" 
+        },
+        {
+            "id": "6",
+            "offerName": "Sand Bank Large",
+            "price": "min. 2 persons - $65/person",
+            "fullPrice": "150",
+            "image": "src/assets/images-offers/sand-bank-large.webp" 
+        },
+        {
+            "id": "7",
+            "offerName": "Picnic Island Fotheyo",
+            "price": "min. 2 persons -$250/person",
+            "fullPrice": "500",
+            "image": "src/assets/images-offers/picnic-island-fotheyo.webp" 
+        },
+        {
+            "id": "8",
+            "offerName": "Nemo Reef Snorkelling",
+            "price": "min. 2 persons - $60/person",
+            "fullPrice": "120",
+            "image": "src/assets/images-offers/nemo-reef-snorkelling.webp" 
+        },
+        {
+            "id": "9",
+            "offerName": "House Reef Snorkelling",
+            "price": "min. 2 persons -$30/person",
+            "fullPrice": "60",
+            "image": "src/assets/images-offers/house-reef-snorkelling.webp" 
+        },
+        {
+            "id": "10",
+            "offerName": "Dolphin Cruise",
+            "price": "min. 2 pax -$75/person",
+            "fullPrice": "150",
+            "image": "src/assets/images-offers/dolphin-cruise.webp" 
+        },
+        {
+            "id": "11",
+            "offerName": "Swim With Whale Sharks",
+            "price": "min. 8 persons - $130/person",
+            "fullPrice": "1,040",
+            "image": "src/assets/images-offers/swim-with-whale-sharks.webp"
+        },
+        {
+            "id": "12",
+            "offerName": "Sandbank Small",
+            "price": "min. 2 persons - $65/person",
+            "fullPrice": "130",
+            "image": "src/assets/images-offers/sandbank-small.webp" 
+        },
+        {
+            "id": "13",
+            "offerName": "Picnic Island Bodumohora",
+            "price": "min. 2 persons - $160/person",
+            "fullPrice": "320",
+            "image": "src/assets/images-offers/picnic-island-bodumohora.webp" 
+        },
+        {
+            "id": "14",
+            "offerName": "Shipwreck",
+            "price": "min. 2 persons - $150/person",
+            "fullPrice": "300",
+            "image": "src/assets/images-offers/shipwreck.webp" 
+        },
+        {
+            "id": "15",
+            "offerName": "Picnic Island Ambara",
+            "price": "min. 2 persons -$240/person",
+            "fullPrice": "480",
+            "image": "src/assets/images-offers/picnic-island-ambara.webp" 
+        },
+        {
+            "id": "16",
+            "offerName": "Tour Package 4 Days 3 Nights",
+            "price": "min 2. $425/person",
+            "fullPrice": "850",
+            "image": "src/assets/images-offers/tour-package-4days.webp" 
+        },
+        {
+            "id": "17",
+            "offerName": "Tour Package 5 Days 4 Nights",
+            "price": "min 2. $550/person",
+            "fullPrice": "1,100",
+            "image": "src/assets/images-offers/tour-package-5days.webp"
+        },
+        {
+            "id": "18",
+            "offerName": "Tour Package 6 Days 5 Nights",
+            "price": "min 2. $650/person",
+            "fullPrice": "1,300",
+            "image": "src/assets/images-offers/tour-package-6days.webp" 
+        },
+        {
+            "id": "19",
+            "offerName": "Maldives Tour Package 8 days 7 nights",
+            "price": "min 2. $900/person",
+            "fullPrice": "1,800",
+            "image": "src/assets/images-offers/tour-package-8days.webp"  
+        }
+    ]
+}

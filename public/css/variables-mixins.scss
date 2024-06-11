@@ -1,0 +1,87 @@
+$title-color-white: hsl(0, 0%, 95%);
+$text-color-white: hsl(0, 0%, 80%);
+$text-color-black: hsl(0, 0%, 0%);
+$bg-color: hsl(0, 0%, 0%);
+$bg-color-white: hsl(0, 0%, 100%);
+
+@mixin headerStructure() {
+    margin: 0 auto;
+    width: 85%;
+    max-width: 1800px;
+    @media (min-width: 2000px) {
+        width: 1700px;
+      }
+      @media (max-width: 1280px) {
+        width: 84%;
+      }
+      @media (max-width: 1100px) {
+        width: 90%;
+      }
+}
+
+@mixin smallStructure() {
+  width: 70%;
+  margin: 0 auto;
+  @media (min-width: 2000px) {
+    width: 1500px;
+  }
+  @media (max-width: 1200px) {
+    width: 75%;
+  }
+  @media (max-width: 1024px) {
+    width: 80%;
+  }
+  @media (max-width: 768px) {
+    width: 85%;
+  }
+  @media (max-width: 480px) {
+    width: 90%;
+  }
+}
+
+@mixin mediumStructure() {
+  width: 90%;
+  margin: 0 auto;
+  @media (min-width: 2000px) {
+    width: 1500px;
+  }
+  @media (max-width: 1200px) {
+    width: 78%;
+  }
+  @media (max-width: 1024px) {
+    width: 82%;
+  }
+  @media (max-width: 768px) {
+    width: 87%;
+  }
+  @media (max-width: 480px) {
+    width: 92%;
+  }
+}
+
+@mixin buttonStructure() {
+  background-color: #FFF;
+  font-size: 0.8rem;
+  padding: .4rem 1.5rem;
+  border-radius: 20px;
+  transition: .4s ease;
+  border: 2px solid #FFF;
+  cursor: pointer;
+  text-decoration: none;
+  color: $text-color-black;
+  &:hover {
+    background-color: #000;
+    color: $text-color-white;
+  }
+}
+
+@mixin inputStructure() {
+  height: 2.2rem;
+  border-radius: 20px;
+  font-size: .8rem;
+  padding: .5rem 1rem;
+  margin: 1rem 0;
+  &:focus {
+    outline: none;
+  }
+}

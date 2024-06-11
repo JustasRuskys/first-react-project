@@ -1,0 +1,53 @@
+.large-image-block {
+    height: 200svh;
+    width: 100%;
+    position: relative;
+    @media (max-width: 1200px) {
+        height: 150svh;
+    }
+    @media (max-width: 700px) {
+        height: 100svh;
+    }
+    .block-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .image-shadow{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, hsl(0, 0%, 0%) 5%, hsla(0, 0%, 0%, 0.1) 50%, hsla(0, 0%, 0%, 0.1) 50%, hsl(0, 0%, 0%) 92%);
+    }
+    .container {
+        @include mediumStructure();
+        display: flex;
+        align-items: center;
+        height: 100%;
+        .title-block {
+            z-index: 1;
+            .title {
+                color: $title-color-white;
+            }
+            .description {
+                color: $title-color-white;
+                padding-bottom: 2rem;
+            }
+            .button {
+                @include buttonStructure();
+                padding: .4rem 1rem;
+                &:hover {
+                    background-color: transparent;
+                    color: $title-color-white;
+                }
+            }
+        }
+
+    }
+}
