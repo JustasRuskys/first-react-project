@@ -9,7 +9,7 @@ export default defineConfig({
     port: 8443,
     proxy: {
       '/api': {
-        target: 'http://JustasRuskys.github.io/first-react-project',
+        target: 'https://JustasRuskys.github.io/first-react-project',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, '')
       },
